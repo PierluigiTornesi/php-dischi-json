@@ -2,29 +2,43 @@
 /* #1d2d3c colore back main */
 /* #112030 colore back card */
 
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* reset img */
 img{
     max-width: 100%;
 }
-
-
+/* per modificare l'header */
 header{
     background-color: #06131f;
     height: 50px;
     color: white;
 }
-
+/* classe per modificare il logo */
+.logo{
+    color: #18d860;
+    font-size: 2rem;
+}
+/* per modificare il mani */
 main{
     height: calc(100vh - 50px);
     background-color: #1d2d3c;
     color: white;
 }
-
+/* classe per modificare il contanitore del poster */
+.cont-post{
+    background-color: #112030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+/* classe per modificare il body della card */
 .card-body{
     background-color:#112030;
+    height: 150px;
 }
