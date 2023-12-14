@@ -1,3 +1,30 @@
 /* #06131f  colore back header*/
 /* #1d2d3c colore back main */
 /* #112030 colore back card */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+header{
+    background-color: #06131f;
+    height: 50px;
+    color: white;
+}
+
+main{
+    height: calc(100vh - 50px);
+    background-color: #1d2d3c;
+    color: white;
+}
+
+.card-body{
+    background-color:#112030;
+}
